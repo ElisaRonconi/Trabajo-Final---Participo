@@ -1,0 +1,78 @@
+
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(196, 225, 227, 0.8);
+    background-image: url(IMG/classroom.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+form {
+    max-width: 600px; /* Aumenté el ancho máximo a 600px */
+    width: 100%;
+    margin: 20px auto;
+    background-color: rgba(235, 235, 205, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo-header {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background-color: #005866;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: calc(100% - 20px); /* Asegúrate de que el botón también sea más ancho */
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #004d59;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+a {
+    color: #005866;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2894a5;
+}
