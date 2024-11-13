@@ -1,16 +1,17 @@
 Guía del Usuario para el Sistema de Gestión de Asistencia
 PARTICIPO
+
 1. Introducción
 El sistema PARTICIPO está diseñado para ayudar a los profesores en la gestión de asistencias, notas y registros de alumnos. A continuación se detalla cómo navegar y utilizar sus funcionalidades.
 ________________________________________
 2. Acceso al Sistema:
 Descargar archivo zip, extraer los archivos en la carpeta www que es leída por servidor laragon. Iniciar laragon, ejecutar documento sql de la carpeta nombrado “BaseDatosParticipo” en su base de datos. Desde el menú de laragon, ejecutar “participo 2.0.”
 
-2.1 Inicio de Sesión
+   Inicio de Sesión:
   	Dirígete a la página de inicio de sesión.
   	Ingresa tu nombre de usuario y contraseña (JavierParra – 1234).
   	Haz clic en el botón "Iniciar" para acceder al sistema.
-2.2 Panel Principal
+   Panel Principal:
     Una vez que inicies sesión correctamente, serás redirigido al panel principal, donde verás un mensaje de bienvenida con tu nombre y       el   acceso a las funciones principales.
 ________________________________________
 3. Navegación por el Menú
